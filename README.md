@@ -21,20 +21,11 @@ Métodos:
   lru(): Executa o algoritmo de substituição de página LRU.
   clock(): Executa o algoritmo de substituição de página Clock.
   nfu(): Executa o algoritmo de substituição de página NFU.
-### App: Classe que permite a execução da simulação a partir do terminal, exibindo os resultados para cada algoritmo.
-Exemplo de execução:
-
-public static void main(String[] args) {
-    int[] pages = new int[]{1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5};
-    int frameSize = 3;
-    PageReplacementSimulator simulator = new PageReplacementSimulator(pages, frameSize);
-    System.out.println("FIFO: " + simulator.fifo() + " faltas de página");
-    System.out.println("LRU: " + simulator.lru() + " faltas de página");
-    System.out.println("Relógio: " + simulator.clock() + " faltas de página");
-    System.out.println("NFU: " + simulator.nfu() + " faltas de página");
-}
 
 ### AppGUI: Interface gráfica que permite a inserção interativa da sequência de páginas e do tamanho do quadro, além de exibir os resultados em um gráfico de barras.
+Exemplo de execução:
+
+![image](https://github.com/user-attachments/assets/fdbb6834-1dda-4e03-8e44-d42787f12c85)
 
 Funcionalidades:
   Campos para inserir o tamanho do quadro e a sequência de páginas.
