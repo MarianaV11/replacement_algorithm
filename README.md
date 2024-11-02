@@ -3,6 +3,8 @@ Este projeto simula algoritmos de substituição de páginas em memória, inclui
 
 ## Pré-requisitos
 Java JDK 8 ou superior
+Intellij IDEA (Community)
+SWING
 
 ## Estrutura do Projeto
 ### PageReplacementSimulator: Classe principal que implementa os algoritmos de substituição de páginas.
