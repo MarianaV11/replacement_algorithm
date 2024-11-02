@@ -36,7 +36,7 @@ Funcionalidades:
 #### Como Executar
   Execute a classe App
   
-  java AppGUI - Para executar a GUI com os gráficos
-  java App - Para executar o código e mostrar os resultados apenas via terminal.
+  java AppGUI - Para executar a GUI com os gráficos;
+  java App - Para executar o código e mostrar os resultados apenas via terminal;
 
 
