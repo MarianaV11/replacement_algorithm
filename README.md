@@ -1,5 +1,5 @@
 # Page Replacement Simulator
-Este projeto simula algoritmos de substituição de páginas em memória, incluindo FIFO, LRU, Clock e NRU. Ele permite que os usuários insiram uma sequência de páginas e um tamanho de quadro para analisar o desempenho de cada algoritmo, mostrando o número de faltas de página ocorridas.
+Este projeto simula algoritmos de substituição de páginas em memória, incluindo FIFO, LRU, Clock e NFU. Ele permite que os usuários insiram uma sequência de páginas e um tamanho de quadro para analisar o desempenho de cada algoritmo, mostrando o número de faltas de página ocorridas.
 
 ## Pré-requisitos
 Java JDK 8 ou superior
@@ -13,7 +13,7 @@ Métodos:
   fifo(): Executa o algoritmo de substituição de página FIFO.
   lru(): Executa o algoritmo de substituição de página LRU.
   clock(): Executa o algoritmo de substituição de página Clock.
-  nru(): Executa o algoritmo de substituição de página NRU.
+  nfu(): Executa o algoritmo de substituição de página NFU.
 ### App: Classe que permite a execução da simulação a partir do terminal, exibindo os resultados para cada algoritmo.
 Exemplo de execução:
 
@@ -24,7 +24,7 @@ public static void main(String[] args) {
     System.out.println("FIFO: " + simulator.fifo() + " faltas de página");
     System.out.println("LRU: " + simulator.lru() + " faltas de página");
     System.out.println("Relógio: " + simulator.clock() + " faltas de página");
-    System.out.println("NRU: " + simulator.nru() + " faltas de página");
+    System.out.println("NFU: " + simulator.nfu() + " faltas de página");
 }
 
 ### AppGUI: Interface gráfica que permite a inserção interativa da sequência de páginas e do tamanho do quadro, além de exibir os resultados em um gráfico de barras.
