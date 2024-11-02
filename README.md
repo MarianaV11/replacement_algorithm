@@ -6,6 +6,11 @@ Java JDK 8 ou superior
 Intellij IDEA (Community)
 SWING
 
+## Utilizadas
+openjdk 23 2024-09-17
+OpenJDK Runtime Environment (build 23)
+OpenJDK 64-Bit Server VM (build 23, mixed mode, sharing)
+
 ## Estrutura do Projeto
 ### PageReplacementSimulator: Classe principal que implementa os algoritmos de substituição de páginas.
 Construtor: PageReplacementSimulator(int[] pageSequence, int frameSize)
